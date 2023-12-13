@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lucky Shrub</title>
+    <meta name="description" content="The garden design firm">
+    <meta name="autor" content="Velychko Ksennia">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <img src="logo.png">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"></a>Home</li>
+            <li><a href="contacts.html"></a>Contacts</li>
+            <li><a href="shop.html"></a>Shop</li>
+            <li><a href="design.html"></a>Design</li>
+            <li><a href="about.html"></a>About us</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="carousel">
+            <section>
+                <article>
+                    <h1>CHRISTMAS TALES</h1>
+                    <img src="christmas.png" alt="Christmas Tales Image">
+                    <p>
+                        Immerse yourself in the enchanting world of Christmas tales with Lucky Shrub. Our
+                        holiday-inspired garden designs
+                        bring the magic of Christmas to life, creating festive atmospheres filled with joy and wonder.
+                        Let our team weave
+                        stories in your outdoor space, transforming it into a magical wonderland that will be remembered
+                        for years to come.
+                    </p>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h1>CRISTMAS IDEAS</h1>
+                    <img src="holiday.png">
+                    <p>
+                        Embark on a journey of holiday-inspired garden design with Lucky Shrub. Let our expert team turn
+                        your
+                        vision into reality, creating festive landscapes that bring joy and beauty to your outdoor space
+                        throughout the year.
+                    </p>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h1>PLANTS AS GIFTS</h1>
+                    <img src="gift-plants.png" alt="Plants as Gifts Image">
+                    <p>
+                        Explore the thoughtful gesture of giving plants as gifts with Lucky Shrub. Our small plant
+                        nursery offers a
+                        diverse selection of indoor and outdoor plants, perfect for gifting. Whether you're celebrating
+                        a special
+                        occasion or expressing gratitude, our carefully curated plants will turn every gift into a
+                        living, lasting
+                        symbol of nature's beauty.
+                    </p>
+                </article>
+            </section>
+        </div>
+    
+        <section>
+            <article>
+                <h4>LANDSCAPE DESIGN</h2>
+                <img src="landscape.png">
+                <p>
+                    Immerse yourself in the beauty of our landscape designs. Lucky Shrub, based in Tuscon, Arizona,
+                    specializes in creating and maintaining breathtaking outdoor spaces. Our team of landscape
+                    architects
+                    brings creativity and skill to every project, transforming ordinary landscapes into extraordinary
+                    havens.
+                </p>
+            </article>
+            <article>
+                <h4>PLANTS</h2>
+                <img src="plants.png">
+                <p>
+                    Explore the world of plants at Lucky Shrub's small plant nursery. From indoor to outdoor varieties,
+                    our diverse selection caters to both seasoned gardeners and beginners. Let Lucky Shrub be your
+                    go-to destination for quality plants and expert advice.
+                </p>
+            </article>
+            <article>
+                <h4>CONTAINER GARDENS</h2>
+                <img src="container.png">
+                <p>
+                    Experience the beauty of container gardening with Lucky Shrub. Our passion is to infuse your home
+                    and
+                    outdoor areas with natural beauty. Visit us for creative container gardening ideas and turn every
+                    corner of your life into a vibrant oasis.
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <img src="logo.png">
+        </div>
+        <div>
+            <p>Copyright Lucky Shrub</p>
+        </div>
+
+    </footer>
+   
+</body>
+
+<script>
+    $(document).ready(function () {
+        $('.carousel').slick({
+            autoplay: true,
+            autoplaySpeed: 5000,
+            arrows: true,
+            dots: true
+        });
+        $('.carousel').show();
+    });
+</script>
+
+</html>

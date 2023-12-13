@@ -1,0 +1,145 @@
+body,
+h1,
+h2,
+h4,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(227, 242, 242);
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+footer img {
+    max-height: 30px;
+}
+
+nav {
+    background-color: #1fa992;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    margin-top: -25px;
+    padding: 20px;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    width: 100%;
+}
+
+section img {
+    display: block;
+    margin: auto;
+    max-width: 600px !important;
+    min-width: 600px !important;
+    max-height: 300px !important;
+    min-height: 300px !important;
+}
+
+section:last-child {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+article {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #455755;
+    color: rgb(227, 242, 242);
+    padding: 10px;
+}
+
+footer div p {
+    margin-top: 10px;
+}
+
+footer div img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+h1,
+h2,
+h4 {
+    color: #333;
+}
+
+.theme-text {
+    color: #666;
+}
+
+.theme-banner {
+    background-color: #e6f7ff;
+    padding: 20px;
+}
+
+.carousel {
+    display: none;
+}
+
+.carousel img {
+    max-width: 100%;
+}
